@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="https://iconape.com/wp-content/png_logo_vector/saylani-welfare-international-trust-logo.png" alt=" Saylani logo" id="img">
+    <form action="backend.php" method="post">
+
+        <h2 class="center">Student Registration Form</h2>
+        <div id="container">
+            <div >
+                <h3>Personal Information</h3>
+                <label for=" My name">
+                    Name:<input type="text" name="My name" placeholder="Name">
+                </label>
+                <label for="DOB">
+                    Date of Birth:<input type="date" name="DOB" placeholder="Date of Birth">
+                </label>
+                <label for=" My email">
+                    Email:<input type="email" name="My email" placeholder="Email">
+                </label>
+                <label for="My phone Number">
+                    Mobile Number:<input type="tel" name="My phone Number" placeholder="Phone Number">
+                </label>
+            </div>
+            <div>
+                <h3>Educatoin</h3>
+                <p>Highest Qualification:</p>
+                <label for="Highest qualification">
+                    <select name="Highest qualification">
+                        <option value=""></option>
+                        <option value="Matric">Matric</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Graduation ">Graduation</option>
+                    </select>
+                </label>
+                <p>Last Institution Academy:</p>
+                <label for="Last institution Academy">
+                    <input type="text" name="Last institution Academy">
+                </label>
+                Graduation Year:
+                <label for="Graduation year">
+                    <input type="year" name="Graduation year">
+                </label>
+            </div>
+
+            <div>
+                <h3>Select Program</h3>
+                <label for="Program select">
+                    <select name="Program select">
+                        <option value=""></option>
+                        <option value="Modern web and app development">Modern web and app development</option>
+                        <option value="Mobile Application development">Mobile Application development</option>
+                        <option value="Graphic design">Graphic design</option>
+                    </select>
+                </label>
+                <p>Additional Course Or Workshop</p>
+                <label for="Additional course">
+                    Graphic Design<input type="checkbox" name="Additional course" class="inline">
+                    Modern web and App development<input type="checkbox" name="Additional course" class="inline">
+                </label>
+            </div>
+
+            <div>
+                <label for="Address">
+                    Address: <input type="text" name="Address" placeholder="Address">
+                </label>
+                <label for="City">
+                    City: <input type="text" name="City" placeholder="City">
+                </label>
+                <label for="Postal Code">
+                    Postal Code: <input type="text" name="Postal Code" placeholder="Postal code">
+                </label>
+            </div>
+            <!-- HTML !-->
+            <button class="button-43" role="button">Submit Here</button>
+    </form>
+    </div>
+</body>
+
+</html>
